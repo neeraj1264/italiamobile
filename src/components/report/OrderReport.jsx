@@ -1,7 +1,8 @@
 import React, { useRef, useEffect, useState, useMemo } from "react";
 import Chart from "chart.js/auto";
-import { fetchOrders } from "./api";
-import Header from "./components/header/Header";
+import { fetchOrders } from "../../api";
+import Header from "../header/Header";
+import "./OrderReport.css";
 
 const OrderReport = () => {
   const chartRef = useRef(null);
@@ -336,8 +337,9 @@ const OrderReport = () => {
                                 border="1"
                                 style={{
                                   width: "100%",
-                                  marginTop: "10px",
+                                  margin: "10px 0",
                                   borderCollapse: "collapse",
+                                  boxShadow: "0px 0px 24px 5px grey",
                                 }}
                               >
                                 <thead>

@@ -7,7 +7,7 @@ import NewProduct from "./components/ProductAdded/NewProduct";
 import History from "./components/history/History";
 import AddToHomeModal from "./components/AddToHome/AddToHome";
 import Advance from "./components/advance/Advance";
-import OrderReport from "./OrderReport";
+import OrderReport from "./components/report/OrderReport";
 import { toast } from "react-toastify";
 
 

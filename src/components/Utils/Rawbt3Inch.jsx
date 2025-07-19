@@ -206,7 +206,7 @@ window.location.reload();
         disabled={isPrinting}
       style={{ opacity: isPrinting ? 0.5 : 1, cursor: isPrinting ? "not-allowed" : "pointer" }}
 
-        >Mobile Print</h2>
+        >Print</h2>
       )}
       </div>
   );
